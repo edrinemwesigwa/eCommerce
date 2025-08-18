@@ -107,18 +107,6 @@ namespace Catalog.API.Controllers
             var command = new DeleteProductByIdCommand(id);
             var result = await _mediator.Send(command);
             return Ok(result);
-        }
-
-
-        [HttpDelete]
-        [Route("DeleteProduct")]
-        [ProducesResponseType(typeof(bool), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<ProductResponse>> DeleteProductTest(string id)
-        {
-            var command = new DeleteProductByIdCommand(id);
-            var result = await _mediator.Send(command);
-            return Ok(result);
-        }
-
+        }       
     }
 }
