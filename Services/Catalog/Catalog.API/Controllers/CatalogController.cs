@@ -39,14 +39,14 @@ namespace Catalog.API.Controllers
         }
 
         [HttpGet]
-        [Route("GetAllProducs")]
-        [ProducesResponseType(typeof(IList<ProductResponse>), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<IList<ProductResponse>>> GetAllProducs()
-        {
-          var query = new GetAllProductsQuery();
-            var result = await _mediator.Send(query);
-            return Ok(result);
-        }
+                 [Route("[action]")]
+                 [ProducesResponseType(typeof(IList<ProductResponse>), (int)HttpStatusCode.OK)]
+                 public async Task<ActionResult<IList<ProductResponse>>> GetAllProducts()
+                 {
+                   var query = new GetAllProductsQuery();
+                     var result = await _mediator.Send(query);
+                     return Ok(result);
+                 }
 
         [HttpGet]
         [Route("GetAllBrands")]
