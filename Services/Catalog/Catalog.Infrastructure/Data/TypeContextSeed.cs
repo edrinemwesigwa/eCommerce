@@ -13,10 +13,10 @@ public static class TypeContextSeed
     public static void SeedData(IMongoCollection<ProductType> typeCollection)
     {
         bool checkTypes = typeCollection.Find(p => true).Any();
-        string path = Path.Combine(Directory.GetCurrentDirectory(), "Data/SeedData/types.json");
+        
         if (!checkTypes)
         {
-            var typesData = File.ReadAllText(path);
+            var typesData = File.ReadAllText("../Catalog/Catalog.Infrastructure/Data/SeedData/types.json");
             var types = JsonSerializer.Deserialize<List<ProductType>>(typesData);
             if (types != null && types.Any())
             {
@@ -26,5 +26,19 @@ public static class TypeContextSeed
                 }
             }
         }
+        //bool checkTypes = typeCollection.Find(p => true).Any();
+        //string path = Path.Combine(Directory.GetCurrentDirectory(), "Data/SeedData/types.json");
+        //if (!checkTypes)
+        //{
+        //    var typesData = File.ReadAllText(path);
+        //    var types = JsonSerializer.Deserialize<List<ProductType>>(typesData);
+        //    if (types != null && types.Any())
+        //    {
+        //        foreach (var type in types)
+        //        {
+        //            typeCollection.InsertOneAsync(type);
+        //        }
+        //    }
+        //}
     }
 }
