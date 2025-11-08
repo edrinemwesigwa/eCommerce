@@ -1,12 +1,27 @@
 services:
-    catalogdb:
-     image: mongo
+  catalogdb:
+    image: mongo
+    container_name: catalogdb
+    restart: always
+    ports:
+      - "27017:27017"
+    networks:
+      - ecommerce
+    volumes:
+      - mongo_data:/data/db
 
-    catalog.api:
-        image: ${DOCKER_REGISTRY-}catalogapi
-        build:
-            context: .
-            dockerfile: Services/Catalog/Catalog.API/Dockerfile
+  catalog.api:
+    image: ${DOCKER_REGISTRY-}catalogapi
+    build:
+      context: .
+      dockerfile: Services/Catalog/Catalog.API/Dockerfile
+    depends_on:
+      - catalogdb
+    networks:
+      - ecommerce
+
+networks:
+  ecommerce:
 
 volumes:
   mongo_data:

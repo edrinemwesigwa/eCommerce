@@ -5,6 +5,7 @@ using Catalog.Core.Repositories;
 using MediatR;
 
 namespace Catalog.Application.Handlers;
+
 public class UpdateProductCommandhandler : IRequestHandler<UpdateProductCommand, bool>
 {
     private readonly IProductRepository _productRepository;
@@ -14,17 +15,21 @@ public class UpdateProductCommandhandler : IRequestHandler<UpdateProductCommand,
     }
     public async Task<bool> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
     {
-        var productEntity  = await _productRepository.UpdateProduct(new Product
+        // Temporary implementation compatible with new EF model: only map scalar fields,
+        // ignore brand/type FKs (not present on UpdateProductCommand).
+        if (!int.TryParse(request.Id, out var intId))
+            throw new ArgumentException("Id must be an integer for SQL-based Catalog.", nameof(request.Id));
+
+        var updated = await _productRepository.UpdateProduct(new Product
         {
-            Id = request.Id,
+            Id = intId,
             Name = request.Name,
             Summary = request.Summary,
             Description = request.Description,
             ImageFile = request.ImageFile,
-            Price = request.Price,
-            Brands = request.Brands,
-            Types = request.Types
+            Price = request.Price
         });
-        return true;
+
+        return updated;
     }
 }

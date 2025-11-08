@@ -3,71 +3,97 @@
 using Catalog.Core.Entities;
 using Catalog.Core.Repositories;
 using Catalog.Infrastructure.Data;
-using MongoDB.Driver;
+using Microsoft.EntityFrameworkCore;
 
 namespace Catalog.Infrastructure.Repositories;
+
+// EF Core implementation of product/brand/type repositories using CatalogDbContext.
 public class ProductRepository : IProductRepository, IBrandRepository, ITypesRepository
 {
-    public ICatalogContext _context { get;}
-    public ProductRepository(ICatalogContext context)
+    private readonly CatalogDbContext _db;
+
+    public ProductRepository(CatalogDbContext db)
     {
-        _context = context;
-    }
-    async Task<Product> IProductRepository.GetProduct(string id)
-    {
-        return await _context.Products.Find(p => p.Id == id).FirstOrDefaultAsync();
+        _db = db;
     }
 
-    async Task<IEnumerable<Product>> IProductRepository.GetProductsByBrand(string brandName)
-    {
-        return await _context.Products
-            .Find(p => p.Brands.Name.ToLower() == brandName.ToLower())
-            .ToListAsync();
-    }
- 
+    // PRODUCTS
 
-    async Task<IEnumerable<Product>> IProductRepository.GetProductsByName(string name)
+    public async Task<Product> GetProduct(string id)
     {
-       return await _context.Products
-            .Find(p => p.Name.ToLower().Contains(name.ToLower()))
+        // With EF, Product.Id is int; repository interface still uses string id, so parse.
+        if (!int.TryParse(id, out var intId))
+            throw new ArgumentException("Id must be an integer for SQL-based Catalog.", nameof(id));
+
+        return await _db.Products
+            .Include(p => p.ProductBrand)
+            .Include(p => p.ProductType)
+            .FirstOrDefaultAsync(p => p.Id == intId);
+    }
+
+    public async Task<IEnumerable<Product>> GetProducts()
+    {
+        return await _db.Products
+            .Include(p => p.ProductBrand)
+            .Include(p => p.ProductType)
             .ToListAsync();
     }
 
-    async Task<IEnumerable<Product>> IProductRepository.GetProducts()
+    public async Task<IEnumerable<Product>> GetProductsByBrand(string brandName)
     {
-        return await _context.Products
-            .Find(_ => true)
+        return await _db.Products
+            .Include(p => p.ProductBrand)
+            .Include(p => p.ProductType)
+            .Where(p => p.ProductBrand.Name.ToLower() == brandName.ToLower())
             .ToListAsync();
     }
-    async Task<Product> IProductRepository.CreateProduct(Product product)
+
+    public async Task<IEnumerable<Product>> GetProductsByName(string name)
     {
-        await _context.Products.InsertOneAsync(product);
+        return await _db.Products
+            .Include(p => p.ProductBrand)
+            .Include(p => p.ProductType)
+            .Where(p => p.Name.ToLower().Contains(name.ToLower()))
+            .ToListAsync();
+    }
+
+    public async Task<Product> CreateProduct(Product product)
+    {
+        _db.Products.Add(product);
+        await _db.SaveChangesAsync();
         return product;
     }
 
-    async Task<bool> IProductRepository.DeleteProduct(string id)
+    public async Task<bool> DeleteProduct(string id)
     {
-        var deletedProduct = await _context.Products.DeleteOneAsync(p => p.Id == id);
-        return deletedProduct.IsAcknowledged && deletedProduct.DeletedCount > 0;
-    }
-    async Task<bool> IProductRepository.UpdateProduct(Product product)
-    {
-        var updatedProduct = await _context.Products.ReplaceOneAsync(
-            p => p.Id == product.Id, product);
-        return updatedProduct.IsAcknowledged && updatedProduct.ModifiedCount > 0;
+        if (!int.TryParse(id, out var intId))
+            return false;
+
+        var entity = await _db.Products.FindAsync(intId);
+        if (entity == null)
+            return false;
+
+        _db.Products.Remove(entity);
+        return await _db.SaveChangesAsync() > 0;
     }
 
-    async Task<IEnumerable<ProductBrand>> IBrandRepository.GetAllBrands()
+    public async Task<bool> UpdateProduct(Product product)
     {
-        return await _context.Brands
-            .Find(_ => true)
-            .ToListAsync();
+        _db.Products.Update(product);
+        return await _db.SaveChangesAsync() > 0;
     }
 
-    async Task<IEnumerable<ProductType>> ITypesRepository.GetAllTypes()
+    // BRANDS
+
+    public async Task<IEnumerable<ProductBrand>> GetAllBrands()
     {
-        return await _context.Types
-            .Find(_ => true)
-            .ToListAsync();
-    }   
+        return await _db.ProductBrands.ToListAsync();
+    }
+
+    // TYPES
+
+    public async Task<IEnumerable<ProductType>> GetAllTypes()
+    {
+        return await _db.ProductTypes.ToListAsync();
+    }
 }
