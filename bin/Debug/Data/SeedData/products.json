@@ -1,0 +1,98 @@
+[
+  {
+    "Id": "602d2149e773f2a3990b47f5",
+    "Name": "Adidas Quick Force Indoor Badminton Shoes",
+    "Description": "Designed for professional as well as amateur badminton players. These indoor shoes are crafted with comfort and grip in mind.",
+    "Price": 3500,
+    "ImageFile": "images/products/adidas_shoe-1.png",
+    "Summary": "Adidas Quick Force Indoor Badminton Shoes",
+    "Types": {
+      "Id": "63ca5d4bc3a8a58f47299f97",
+      "Name": "Shoes"
+    },
+    "Brands": {
+      "Id": "63ca5e40e0aa3968b549af53",
+      "Name": "Adidas"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3990b47f6",
+    "Name": "Adidas Quick Force Indoor Badminton Shoes",
+    "Description": "Designed for professional as well as amateur badminton players. These indoor shoes are crafted with comfort and grip in mind.",
+    "Price": 3375,
+    "ImageFile": "images/products/adidas_shoe-2.png",
+    "Summary": "Adidas Quick Force Indoor Badminton Shoes",
+    "Types": {
+      "Id": "63ca5d4bc3a8a58f47299f97",
+      "Name": "Shoes"
+    },
+    "Brands": {
+      "Id": "63ca5e40e0aa3968b549af53",
+      "Name": "Adidas"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3990b47f7",
+    "Name": "ASICS Gel-Rocket 10",
+    "Description": "A reliable indoor court shoe that offers good stability and cushioning for all levels.",
+    "Price": 4200,
+    "ImageFile": "images/products/asics_shoe-1.png",
+    "Summary": "ASICS Gel-Rocket 10 Shoes",
+    "Types": {
+      "Id": "63ca5d4bc3a8a58f47299f97",
+      "Name": "Shoes"
+    },
+    "Brands": {
+      "Id": "63ca5e445590b099b4bc1bc1",
+      "Name": "ASICS"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3990b47f8",
+    "Name": "Yonex Astrox 99 Pro",
+    "Description": "Built for power, this racket delivers incredible smash power with a solid feel.",
+    "Price": 7850,
+    "ImageFile": "images/products/yonex_racket-1.png",
+    "Summary": "Yonex Astrox 99 Pro Racket",
+    "Types": {
+      "Id": "63ca5d6958e3e1cd375fefc",
+      "Name": "Rackets"
+    },
+    "Brands": {
+      "Id": "63ca5e655ce1fdc49bd9327d",
+      "Name": "Yonex"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3990b47f9",
+    "Name": "Nike Football Premier League",
+    "Description": "Official Nike football used in Premier League games with superior grip and aerodynamics.",
+    "Price": 1800,
+    "ImageFile": "images/products/nike_football.png",
+    "Summary": "Nike Premier League Football",
+    "Types": {
+      "Id": "63ca5d7308042dce7f06ebc",
+      "Name": "Football"
+    },
+    "Brands": {
+      "Id": "63ca5e7ec90ff5c8f4dd5ac8",
+      "Name": "Nike"
+    }
+  },
+  {
+    "Id": "602d2149e773f2a3990b47fa",
+    "Name": "Babolat Tennis Kit Bag",
+    "Description": "Spacious and durable tennis bag that holds multiple rackets and gear comfortably.",
+    "Price": 2600,
+    "ImageFile": "images/products/babolat_kitbag.png",
+    "Summary": "Babolat Tennis Kit Bag",
+    "Types": {
+      "Id": "63ca5d889bc19321bb8e5f1",
+      "Name": "Kit Bags"
+    },
+    "Brands": {
+      "Id": "63ca5e8d6110a9c56ee7dc48",
+      "Name": "Babolat"
+    }
+  }
+]

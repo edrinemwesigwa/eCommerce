@@ -1,0 +1,13 @@
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\bin\Debug\net8.0\Catalog.Core.deps.json
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\bin\Debug\net8.0\Catalog.Core.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\bin\Debug\net8.0\Catalog.Core.pdb
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.csproj.AssemblyReference.cache
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.AssemblyInfoInputs.cache
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.AssemblyInfo.cs
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.csproj.CoreCompileInputs.cache
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.sourcelink.json
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net8.0\refint\Catalog.Core.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net8.0\Catalog.Core.pdb
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Catalog\Catalog.Core\obj\Debug\net8.0\ref\Catalog.Core.dll
