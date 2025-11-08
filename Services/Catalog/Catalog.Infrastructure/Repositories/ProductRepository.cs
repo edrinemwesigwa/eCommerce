@@ -69,9 +69,5 @@ public class ProductRepository : IProductRepository, IBrandRepository, ITypesRep
         return await _context.Types
             .Find(_ => true)
             .ToListAsync();
-    }
-
-  
-
-   
+    }   
 }
