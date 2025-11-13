@@ -1,0 +1,16 @@
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net8.0\Basket.Infrastructure.deps.json
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net8.0\Basket.Infrastructure.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net8.0\Basket.Infrastructure.pdb
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.AssemblyInfo.cs
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.sourcelink.json
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\refint\Basket.Infrastructure.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.pdb
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\ref\Basket.Infrastructure.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net8.0\Basket.Core.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\bin\Debug\net8.0\Basket.Core.pdb
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Infrastructure\obj\Debug\net8.0\Basket.I.99EAA0BF.Up2Date

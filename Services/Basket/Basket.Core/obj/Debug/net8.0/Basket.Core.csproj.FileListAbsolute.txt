@@ -1,0 +1,12 @@
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\bin\Debug\net8.0\Basket.Core.deps.json
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\bin\Debug\net8.0\Basket.Core.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\bin\Debug\net8.0\Basket.Core.pdb
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.AssemblyInfoInputs.cache
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.AssemblyInfo.cs
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.csproj.CoreCompileInputs.cache
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.sourcelink.json
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\obj\Debug\net8.0\refint\Basket.Core.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\obj\Debug\net8.0\Basket.Core.pdb
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.Core\obj\Debug\net8.0\ref\Basket.Core.dll

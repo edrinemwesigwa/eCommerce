@@ -12,16 +12,13 @@ public class ProductRepository : IProductRepository, IBrandRepository, ITypesRep
 {
     private readonly CatalogDbContext _db;
 
-    public ProductRepository(CatalogDbContext db)
-    {
-        _db = db;
-    }
+    public ProductRepository(CatalogDbContext db) => _db = db;
+   
 
     // PRODUCTS
 
     public async Task<Product> GetProduct(string id)
     {
-        // With EF, Product.Id is int; repository interface still uses string id, so parse.
         if (!int.TryParse(id, out var intId))
             throw new ArgumentException("Id must be an integer for SQL-based Catalog.", nameof(id));
 

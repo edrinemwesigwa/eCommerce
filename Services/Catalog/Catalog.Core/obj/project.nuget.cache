@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uk1cFFDHcNE=",
+  "dgSpecHash": "2m9GMiXMdyA=",
   "success": true,
-  "projectFilePath": "c:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+  "projectFilePath": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edrin\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\9.0.0\\aspnetcore.healthchecks.mongodb.9.0.0.nupkg.sha512",
     "C:\\Users\\edrin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

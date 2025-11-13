@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|c:\\users\\edrin\\onedrive\\desktop\\work space\\ecommerce\\services\\basket\\basket.application\\mappers\\basketmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\mappers\\basketmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|c:\\users\\edrin\\onedrive\\desktop\\work space\\ecommerce\\services\\basket\\basket.application\\mappers\\basketmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\mappers\\basketmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|c:\\users\\edrin\\onedrive\\desktop\\work space\\ecommerce\\services\\basket\\basket.application\\responses\\shoppingcartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\responses\\shoppingcartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|c:\\users\\edrin\\onedrive\\desktop\\work space\\ecommerce\\services\\basket\\basket.application\\responses\\shoppingcartitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\responses\\shoppingcartitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +55,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasketMapper.cs",
+              "DocumentMoniker": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Mappers\\BasketMapper.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Mappers\\BasketMapper.cs",
+              "ToolTip": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Mappers\\BasketMapper.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Mappers\\BasketMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:53:21.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoppingCartResponse.cs",
+              "DocumentMoniker": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Responses\\ShoppingCartResponse.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Responses\\ShoppingCartResponse.cs",
+              "ToolTip": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Responses\\ShoppingCartResponse.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Responses\\ShoppingCartResponse.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:43:24.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShoppingCartItemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Responses\\ShoppingCartItemResponse.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Responses\\ShoppingCartItemResponse.cs",
+              "ToolTip": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Responses\\ShoppingCartItemResponse.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Responses\\ShoppingCartItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:42:13.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasketMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Mappers\\BasketMappingProfile.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Mappers\\BasketMappingProfile.cs",
+              "ToolTip": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Mappers\\BasketMappingProfile.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Mappers\\BasketMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:38:34.215Z",
+              "EditorCaption": ""
             }
           ]
         }

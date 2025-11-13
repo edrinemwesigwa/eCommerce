@@ -39,7 +39,7 @@ services:
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     networks:
-      default: null
+      ecommerce: null
     ports:
       - mode: ingress
         target: 8080
@@ -114,7 +114,7 @@ services:
     container_name: catalogdb
     image: mongo
     networks:
-      default: null
+      ecommerce: null
     ports:
       - mode: ingress
         target: 27017
@@ -127,8 +127,8 @@ services:
         target: /data/db
         volume: {}
 networks:
-  default:
-    name: dockercompose8999069211362375439_default
+  ecommerce:
+    name: dockercompose8999069211362375439_ecommerce
 volumes:
   mongo_data:
     name: dockercompose8999069211362375439_mongo_data
