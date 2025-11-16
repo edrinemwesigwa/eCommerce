@@ -59,7 +59,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[15.1.0, )"
+              "version": "[13.0.1, )"
             },
             "MediatR": {
               "target": "Package",

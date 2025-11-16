@@ -53,3 +53,13 @@ C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\
 C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\HealthChecks.UI.Client.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\HealthChecks.UI.Core.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\edrin\OneDrive\Desktop\Work Space\Ecommerce\Services\Basket\Basket.API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll

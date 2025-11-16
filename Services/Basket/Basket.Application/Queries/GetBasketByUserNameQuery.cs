@@ -1,0 +1,12 @@
+﻿using Basket.Application.Responses;
+using MediatR;
+
+namespace Basket.Application.Queries;
+public class GetBasketByUserNameQuery : IRequest<ShoppingCartResponse>
+{
+    public string UserName { get; set; } = string.Empty;
+    public GetBasketByUserNameQuery(string userName)
+    {
+        UserName = userName;
+    }
+}

@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|c:\\users\\edrin\\onedrive\\desktop\\work space\\ecommerce\\services\\basket\\basket.application\\mappers\\basketmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\mappers\\basketmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41202A6D-8771-40AC-9C2B-6DE4D7E55DF8}|Services\\Basket\\Basket.API\\Basket.API.csproj|c:\\users\\edrin\\onedrive\\desktop\\work space\\ecommerce\\services\\basket\\basket.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41202A6D-8771-40AC-9C2B-6DE4D7E55DF8}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|c:\\users\\edrin\\onedrive\\desktop\\work space\\ecommerce\\services\\basket\\basket.application\\mappers\\basketmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\mappers\\basketmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|c:\\users\\edrin\\onedrive\\desktop\\work space\\ecommerce\\services\\basket\\basket.application\\responses\\shoppingcartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\responses\\shoppingcartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|c:\\users\\edrin\\onedrive\\desktop\\work space\\ecommerce\\services\\basket\\basket.application\\responses\\shoppingcartitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F34E77A-5F42-409B-BF5F-6E776BE1EECE}|Services\\Basket\\Basket.Application\\Basket.Application.csproj|solutionrelative:services\\basket\\basket.application\\responses\\shoppingcartitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41202A6D-8771-40AC-9C2B-6DE4D7E55DF8}|Services\\Basket\\Basket.API\\Basket.API.csproj|c:\\users\\edrin\\onedrive\\desktop\\work space\\ecommerce\\services\\basket\\basket.api\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41202A6D-8771-40AC-9C2B-6DE4D7E55DF8}|Services\\Basket\\Basket.API\\Basket.API.csproj|solutionrelative:services\\basket\\basket.api\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,53 +51,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BasketMapper.cs",
-              "DocumentMoniker": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Mappers\\BasketMapper.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Mappers\\BasketMapper.cs",
-              "ToolTip": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Mappers\\BasketMapper.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Mappers\\BasketMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Program.cs",
+              "ToolTip": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.API\\Program.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.API\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:53:21.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShoppingCartResponse.cs",
-              "DocumentMoniker": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Responses\\ShoppingCartResponse.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Responses\\ShoppingCartResponse.cs",
-              "ToolTip": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Responses\\ShoppingCartResponse.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Responses\\ShoppingCartResponse.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:43:24.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShoppingCartItemResponse.cs",
-              "DocumentMoniker": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Responses\\ShoppingCartItemResponse.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Responses\\ShoppingCartItemResponse.cs",
-              "ToolTip": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Responses\\ShoppingCartItemResponse.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Responses\\ShoppingCartItemResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:42:13.675Z",
+              "WhenOpened": "2025-11-16T10:18:57.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BasketMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Mappers\\BasketMappingProfile.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\Basket.Application\\Mappers\\BasketMappingProfile.cs",
-              "ToolTip": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.Application\\Mappers\\BasketMappingProfile.cs",
-              "RelativeToolTip": "Services\\Basket\\Basket.Application\\Mappers\\BasketMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "Title": "APIController.cs",
+              "DocumentMoniker": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.API\\Controllers\\APIController.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\Basket.API\\Controllers\\APIController.cs",
+              "ToolTip": "C:\\Users\\edrin\\OneDrive\\Desktop\\Work Space\\Ecommerce\\Services\\Basket\\Basket.API\\Controllers\\APIController.cs",
+              "RelativeToolTip": "Services\\Basket\\Basket.API\\Controllers\\APIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:38:34.215Z",
+              "WhenOpened": "2025-11-16T10:15:25.308Z",
               "EditorCaption": ""
             }
           ]
